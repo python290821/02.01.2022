@@ -1,6 +1,12 @@
 from Calculator import *
 import pytest
 
+# test the SalaryInputs
+# ValueError
+# TooHigherError (create)
+# TooLowerError (create)
+# 2 inputs valid -- use parametrize
+'''
 @pytest.mark.parametrize("x,y,z", [(10, 20, 30),
                                    (40, 50, 99)])
 def test_add_parameters(x, y, z):
@@ -39,3 +45,4 @@ def test_div_by_zero_expect_error():
         calc.div(28, 0)
 
 # (venv) D:\python_projects\today_02Jan22\02.01.2022>pytest main.py
+'''
